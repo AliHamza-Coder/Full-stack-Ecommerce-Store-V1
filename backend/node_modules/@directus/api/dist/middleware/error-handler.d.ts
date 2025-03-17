@@ -1,2 +1,0 @@
-import type { ErrorRequestHandler } from 'express';
-export declare const errorHandler: (err: any, req: import("express-serve-static-core").Request<import("express-serve-static-core").ParamsDictionary, any, any, import("qs").ParsedQs, Record<string, any>>, res: import("express-serve-static-core").Response<any, Record<string, any>, number>, next: import("express-serve-static-core").NextFunction) => Promise<ReturnType<ErrorRequestHandler>>;

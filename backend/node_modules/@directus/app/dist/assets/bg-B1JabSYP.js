@@ -1,1 +1,0 @@
-var t={code:"bg",week:{dow:1,doy:4},buttonText:{prev:"назад",next:"напред",today:"днес",year:"година",month:"Месец",week:"Седмица",day:"Ден",list:"График"},allDayText:"Цял ден",moreLinkText(e){return"+още "+e},noEventsText:"Няма събития за показване"};export{t as default};
