@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pro Running Shoes",
+      "price": 129.99,
+      "description": "Professional grade running shoes designed for maximum comfort and performance. Features advanced cushioning technology and breathable mesh upper.",
+      "rating": 4.8,
+      "image": "/placeholder.svg?height=400&width=400",
+      "gallery": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Performance Basketball",
+      "price": 49.99,
+      "description": "Official size basketball with superior grip and durability. Perfect for indoor and outdoor play.",
+      "rating": 4.6,
+      "image": "/placeholder.svg?height=400&width=400",
+      "gallery": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Compression Shirt",
+      "price": 34.99,
+      "description": "High-performance compression shirt that helps improve blood circulation and muscle recovery. Made with moisture-wicking fabric.",
+      "rating": 4.5,
+      "image": "/placeholder.svg?height=400&width=400",
+      "gallery": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fitness Tracker Watch",
+      "price": 89.99,
+      "description": "Advanced fitness tracker with heart rate monitoring, sleep tracking, and workout analytics. Water-resistant up to 50m.",
+      "rating": 4.9,
+      "image": "/placeholder.svg?height=400&width=400",
+      "gallery": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ]
+    }
+  ]
+}
+
