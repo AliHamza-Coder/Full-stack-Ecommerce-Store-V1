@@ -1,12 +1,15 @@
 "use client";
 
 import type React from "react";
-
 import Image from "next/image";
 import Link from "next/link";
 import { ShoppingCart } from "lucide-react";
 import type { Product } from "@/utils/fetchData";
 import { useCart } from "@/lib/cart-context";
+
+// Slug generation function
+const generateSlug = (title: string) =>
+  title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
 export default function ProductCard({ product }: { product: Product }) {
   const { addToCart } = useCart();
@@ -22,7 +25,10 @@ export default function ProductCard({ product }: { product: Product }) {
                     transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl"
     >
       <Link
-        href={`/product/${product.id}`}
+        href={{
+          pathname: `/product/${generateSlug(product.name)}`,
+          query: { title: product.name }, // Pass the title as a query parameter
+        }}
         className="relative block h-64 w-full overflow-hidden group"
       >
         <Image
